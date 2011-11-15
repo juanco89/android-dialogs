@@ -1,0 +1,17 @@
+
+# android #
+bin/
+assets/
+
+#
+.settings/
+.directory
+
+# Eclipse #
+.classpath
+.project
+
+# Objetos y precompilados #
+###################
+*.class
+*.o
