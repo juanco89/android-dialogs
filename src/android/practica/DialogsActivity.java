@@ -156,7 +156,8 @@ public class DialogsActivity extends Activity {
     		progress.setMessage("Cargando...");
     		progress.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
     		progress.setMax(10);
-    		progress.setProgress(5);
+    		progress.incrementProgressBy(7);
+    		//progress.setProgress(5);
     		//progress.setCancelable(false);
     		dialog = progress;
     		break;
