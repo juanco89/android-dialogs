@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dialog_root"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -16,17 +17,30 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Alert Dialog" />
-
+    <Button
+        android:id="@+id/alert_list_d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert con Lista" />
+    <Button
+        android:id="@+id/alert_radio_d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert con Radio Button" />
+    <Button
+        android:id="@+id/alert_check_d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert con CheckBox" />
     <Button
         android:id="@+id/progress_d"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Progress Dialog" />
-
     <Button
         android:id="@+id/custom_d"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Custom Dialog" />
-
+        android:text="Dialog personalizado" />
+    
 </LinearLayout>
