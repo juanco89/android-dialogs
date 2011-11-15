@@ -1,0 +1,11 @@
+ 
+ Pequeña muestra de como crear diálogos en Android.
+
+ La clase DialogsActivity tiene un pequeña implementación de los diálogos básicos como:
+ *ArletDialog (Sencillo, con lista, con RadioButton y con CheckBox)
+ *ProgressDialog
+ *Diálogo personalizado (Objeto Dialog con un layout)
+ 
+ Creado por: Juan Carlos Orozco
+ Plataforma: Android 2.2
+ Eclipse: 3.7.1 Indigo
